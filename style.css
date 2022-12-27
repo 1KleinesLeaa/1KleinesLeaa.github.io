@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body {
+    background-color:#ffe4c4;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+header {
+    position: sticky;
+    top: 0px;
+}
+header, footer{
+    background-color:#800000;
+    color:#fff;
+    padding: 1px;
+}
+h1{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 20px;
+}
+h2{
+    text-align: center;
+}
+p {
+    transition: 10s;
+}
+p:hover {
+    transition: 10s;
+    transform: rotate(20deg) translate(20px, 30px);
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+div {
+    text-align: center;
+}
+a {
+    color: #fff;
+}
+.page-menu a {
+    color: inherit;
+}
+.film-card {
+    display: inline-block;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 10px 5px 5px rgb(203, 203, 203);
+    height: 800px;
+    width: 400px;
+    margin-right: 0px;
+    margin-left: 6%;
+    margin-top: 40px;
+}
+.film-img {
+    margin-top: 20px;
+}
+.movie-poster-list, .page-menu-list {
+    padding: 4px;
+    display: inline-block;
+    width: 49%;
+    box-sizing: border-box;
+}
+.movie-poster-item, .page-menu-item {
+    display: inline-block;
+}
+.movie-poster-list {
+    text-align: right;
+}
+.page-menu-list {
+    text-align: left;
+}
+.button, .film-card-button {
+    text-decoration: none;
+    border: 1px solid #fff;
+    margin: auto;
+    padding: 8px;
+}
+.button:hover {
+    text-decoration: underline;
+    border: 1px solid #fff;
+    color: rgb(0, 0, 0);
+    background-color: bisque;
+    margin: auto;
+    padding: 8px;
+}
+.film-card-button {
+    border: 2px solid #800000;
+    color: #800000;
+}
+.movie-poster-lable {
+    border: 0px;
+}
+.kategorii {
+    font-size: 35px;
+    color: #800000;
+    padding: 20px;
+}
+.footer {
+    font-size: 15px;
+    color: white;
+}
+.footerh2 {
+    font-size: 25px;
+}
+.food {
+    text-align: center;
+}
+table {
+    margin-left: 38%;
+}
+td, table {
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+th {
+    border-collapse: collapse;
+}
+caption {
+    caption-side: top;
+}
+td, th {
+    border: 2px solid #694242;
+}
+.about-us-item {
+    padding-bottom: 7px;
+    text-align: center;
+    list-style-type: none; /* Убираем маркеры у списка */
+   }
+.about-us-item:before {
+    content: "✰"; /* Добавляем в качестве маркера символ */
+   }
